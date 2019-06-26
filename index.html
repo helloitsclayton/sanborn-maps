@@ -31,7 +31,7 @@
 			});
 			L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-0000/info.json').addTo(map);
 			function onMapClick(e) {
-				alert("You clicked the map at " + e.latlng);
+				alert(e.latlng.lng+","+e.latlng.lat);
 			}
 			map.on('click', onMapClick);
 			function onClick(e) {
