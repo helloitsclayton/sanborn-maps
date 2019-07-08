@@ -6,7 +6,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p1",
 				"volume": 1,
-				"page": 1
+				"page": "0001"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -21,7 +21,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p2",
 				"volume": 1,
-				"page": 2
+				"page": "0002"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -36,7 +36,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p3",
 				"volume": 1,
-				"page": 3
+				"page": "0003"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -51,7 +51,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p4",
 				"volume": 1,
-				"page": 4
+				"page": "0004"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -66,7 +66,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p5",
 				"volume": 1,
-				"page": 5
+				"page": "0005"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -81,7 +81,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p6",
 				"volume": 1,
-				"page": 6
+				"page": "0006"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -96,7 +96,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p7",
 				"volume": 1,
-				"page": 7
+				"page": "0007"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -111,7 +111,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p8",
 				"volume": 1,
-				"page": 8
+				"page": "0008"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -126,7 +126,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p9",
 				"volume": 1,
-				"page": 9
+				"page": "0009"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -142,7 +142,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p10",
 				"volume": 1,
-				"page": 10
+				"page": "0010"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -158,7 +158,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p11",
 				"volume": 1,
-				"page": 11
+				"page": "0011"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -173,7 +173,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p12",
 				"volume": 1,
-				"page": 12
+				"page": "0012"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -188,7 +188,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p13",
 				"volume": 1,
-				"page": 13
+				"page": "0013"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -203,7 +203,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p14",
 				"volume": 1,
-				"page": 14
+				"page": "0014"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -218,7 +218,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p15",
 				"volume": 1,
-				"page": 15
+				"page": "0015"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -234,7 +234,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p16",
 				"volume": 1,
-				"page": 16
+				"page": "0016"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -250,7 +250,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p17",
 				"volume": 1,
-				"page": 17
+				"page": "0017"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -266,7 +266,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p18",
 				"volume": 1,
-				"page": 18
+				"page": "0018"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -281,7 +281,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p19",
 				"volume": 1,
-				"page": 19
+				"page": "0019"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -296,7 +296,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p20",
 				"volume": 1,
-				"page": 20
+				"page": "0020"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -311,7 +311,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p21",
 				"volume": 1,
-				"page": 21
+				"page": "0021"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -326,7 +326,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p22",
 				"volume": 1,
-				"page": 22
+				"page": "0022"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -341,7 +341,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p23",
 				"volume": 1,
-				"page": 23
+				"page": "0023"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -356,7 +356,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p24",
 				"volume": 1,
-				"page": 24
+				"page": "0024"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -372,7 +372,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p25",
 				"volume": 1,
-				"page": 25
+				"page": "0025"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -387,7 +387,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p26",
 				"volume": 1,
-				"page": 26
+				"page": "0026"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -403,7 +403,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p27",
 				"volume": 1,
-				"page": 27
+				"page": "0027"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -418,7 +418,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p28",
 				"volume": 1,
-				"page": 28
+				"page": "0028"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -433,7 +433,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p29",
 				"volume": 1,
-				"page": 29
+				"page": "0029"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -448,7 +448,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p30",
 				"volume": 1,
-				"page": 30
+				"page": "0030"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -463,7 +463,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p31",
 				"volume": 1,
-				"page": 31
+				"page": "0031"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -478,7 +478,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p32",
 				"volume": 1,
-				"page": 32
+				"page": "0032"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -495,7 +495,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p33",
 				"volume": 1,
-				"page": 33
+				"page": "0033"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -510,7 +510,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p34",
 				"volume": 1,
-				"page": 34
+				"page": "0034"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -526,7 +526,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p35",
 				"volume": 1,
-				"page": 35
+				"page": "0035"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -543,7 +543,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p36",
 				"volume": 1,
-				"page": 36
+				"page": "0036"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -559,7 +559,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p37",
 				"volume": 1,
-				"page": 37
+				"page": "0037"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -575,7 +575,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p38",
 				"volume": 1,
-				"page": 38
+				"page": "0038"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -591,7 +591,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p39",
 				"volume": 1,
-				"page": 39
+				"page": "0039"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -606,7 +606,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p40",
 				"volume": 1,
-				"page": 40
+				"page": "0040"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -621,7 +621,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p41",
 				"volume": 1,
-				"page": 41
+				"page": "0041"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -636,7 +636,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p42",
 				"volume": 1,
-				"page": 42
+				"page": "0042"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -653,7 +653,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p43",
 				"volume": 1,
-				"page": 43
+				"page": "0043"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -668,7 +668,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p44",
 				"volume": 1,
-				"page": 44
+				"page": "0044"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -683,7 +683,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p45",
 				"volume": 1,
-				"page": 45
+				"page": "0045"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -698,7 +698,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p46",
 				"volume": 1,
-				"page": 46
+				"page": "0046"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -713,7 +713,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p47",
 				"volume": 1,
-				"page": 47
+				"page": "0047"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -728,7 +728,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p48",
 				"volume": 1,
-				"page": 48
+				"page": "0048"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -744,7 +744,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p49",
 				"volume": 1,
-				"page": 49
+				"page": "0049"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -760,7 +760,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p50",
 				"volume": 1,
-				"page": 50
+				"page": "0050"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -775,7 +775,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p51",
 				"volume": 1,
-				"page": 51
+				"page": "0051"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -790,7 +790,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p52",
 				"volume": 1,
-				"page": 52
+				"page": "0052"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -805,7 +805,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p53",
 				"volume": 1,
-				"page": 53
+				"page": "0053"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -820,7 +820,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p54",
 				"volume": 1,
-				"page": 54
+				"page": "0054"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -835,7 +835,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p55",
 				"volume": 1,
-				"page": 55
+				"page": "0055"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -850,7 +850,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p56",
 				"volume": 1,
-				"page": 56
+				"page": "0056"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -865,7 +865,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p57",
 				"volume": 1,
-				"page": 57
+				"page": "0057"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -880,7 +880,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p58",
 				"volume": 1,
-				"page": 58
+				"page": "0058"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -895,7 +895,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p59",
 				"volume": 1,
-				"page": 59
+				"page": "0059"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -912,7 +912,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p60",
 				"volume": 1,
-				"page": 60
+				"page": "0060"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -927,7 +927,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p61",
 				"volume": 1,
-				"page": 61
+				"page": "0061"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -942,7 +942,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p62",
 				"volume": 1,
-				"page": 62
+				"page": "0062"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -957,7 +957,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p63",
 				"volume": 1,
-				"page": 63
+				"page": "0063"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -972,7 +972,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p64",
 				"volume": 1,
-				"page": 64
+				"page": "0064"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -987,7 +987,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p65",
 				"volume": 1,
-				"page": 65
+				"page": "0065"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1002,7 +1002,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p66",
 				"volume": 1,
-				"page": 66
+				"page": "0066"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1017,7 +1017,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p67",
 				"volume": 1,
-				"page": 67
+				"page": "0067"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1032,7 +1032,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p68",
 				"volume": 1,
-				"page": 68
+				"page": "0068"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1047,7 +1047,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p69",
 				"volume": 1,
-				"page": 69
+				"page": "0069"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1062,7 +1062,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p70",
 				"volume": 1,
-				"page": 70
+				"page": "0070"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1077,7 +1077,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p71",
 				"volume": 1,
-				"page": 71
+				"page": "0071"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1092,7 +1092,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p72",
 				"volume": 1,
-				"page": 72
+				"page": "0072"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1107,7 +1107,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p73",
 				"volume": 1,
-				"page": 73
+				"page": "0073"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1124,7 +1124,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p74",
 				"volume": 1,
-				"page": 74
+				"page": "0074"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1141,7 +1141,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p75",
 				"volume": 1,
-				"page": 75
+				"page": "0075"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1156,7 +1156,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p76",
 				"volume": 1,
-				"page": 76
+				"page": "0076"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1171,7 +1171,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p77",
 				"volume": 1,
-				"page": 77
+				"page": "0077"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1186,7 +1186,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p78",
 				"volume": 1,
-				"page": 78
+				"page": "0078"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1201,7 +1201,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p79",
 				"volume": 1,
-				"page": 79
+				"page": "0079"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1216,7 +1216,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p80",
 				"volume": 1,
-				"page": 80
+				"page": "0080"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1231,7 +1231,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p81",
 				"volume": 1,
-				"page": 81
+				"page": "0081"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1246,7 +1246,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p82",
 				"volume": 1,
-				"page": 82
+				"page": "0082"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1263,7 +1263,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p83",
 				"volume": 1,
-				"page": 83
+				"page": "0083"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1279,7 +1279,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p84",
 				"volume": 1,
-				"page": 84
+				"page": "0084"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1294,7 +1294,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p85",
 				"volume": 1,
-				"page": 85
+				"page": "0085"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1309,7 +1309,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p86",
 				"volume": 1,
-				"page": 86
+				"page": "0086"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1324,7 +1324,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p87",
 				"volume": 1,
-				"page": 87
+				"page": "0087"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1339,7 +1339,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p88",
 				"volume": 1,
-				"page": 88
+				"page": "0088"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1354,7 +1354,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p89",
 				"volume": 1,
-				"page": 89
+				"page": "0089"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1369,7 +1369,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p90",
 				"volume": 1,
-				"page": 90
+				"page": "0090"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1384,7 +1384,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p91",
 				"volume": 1,
-				"page": 91
+				"page": "0091"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1399,7 +1399,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p92",
 				"volume": 1,
-				"page": 92
+				"page": "0092"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1414,7 +1414,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p93",
 				"volume": 1,
-				"page": 93
+				"page": "0093"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1430,7 +1430,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p94",
 				"volume": 1,
-				"page": 94
+				"page": "0094"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1445,7 +1445,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p95",
 				"volume": 1,
-				"page": 95
+				"page": "0095"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1460,7 +1460,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p96",
 				"volume": 1,
-				"page": 96
+				"page": "0096"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1475,7 +1475,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p97",
 				"volume": 1,
-				"page": 97
+				"page": "0097"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1490,7 +1490,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p98",
 				"volume": 1,
-				"page": 98
+				"page": "0098"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1505,7 +1505,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p99",
 				"volume": 1,
-				"page": 99
+				"page": "0099"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1520,7 +1520,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p100",
 				"volume": 1,
-				"page": 100
+				"page": "0100"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1535,7 +1535,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p101",
 				"volume": 1,
-				"page": 101
+				"page": "0101"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1550,7 +1550,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p102",
 				"volume": 1,
-				"page": 102
+				"page": "0102"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1565,7 +1565,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p103",
 				"volume": 1,
-				"page": 103
+				"page": "0103"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1580,7 +1580,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p104",
 				"volume": 1,
-				"page": 104
+				"page": "0104"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1595,7 +1595,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p105",
 				"volume": 1,
-				"page": 105
+				"page": "0105"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1610,7 +1610,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p106",
 				"volume": 1,
-				"page": 106
+				"page": "0106"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1625,7 +1625,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p107",
 				"volume": 1,
-				"page": 107
+				"page": "0107"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1640,7 +1640,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p108",
 				"volume": 1,
-				"page": 108
+				"page": "0108"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1656,7 +1656,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p109",
 				"volume": 1,
-				"page": 109
+				"page": "0109"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1673,7 +1673,7 @@ var clickRegions =
 			"properties": {
 				"id": "v1p110",
 				"volume": 1,
-				"page": 110
+				"page": "0110"
 			},
 			"geometry": {
 				"type": "Polygon",
