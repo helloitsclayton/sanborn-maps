@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="utf-8" />
@@ -29,23 +27,26 @@
 				crs: L.CRS.Simple,
 				zoom: 0
 			});
-			L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-0000/info.json').addTo(map);
-			function onMapClick(e) {
+			var mapTiles = L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-0000/info.json');
+			mapTiles.addTo(map);
+			/*function onMapClick(e) {
 				alert(e.latlng.lng+","+e.latlng.lat);
 			}
-			map.on('click', onMapClick);
+			map.on('click', onMapClick);*/
 			function onClick(e) {
-				var pageNo = e.target.feature.properties.page+1;
-				window.location = "https://www.loc.gov/resource/g4114dm.g03985189701/?sp="+pageNo;
+				var mapTiles = L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-'+e.target.feature.properties.page+'/info.json');
+				mapTiles.addTo(map);
+				linkLayer.remove();
 			}
 			function onEachFeature(feature,layer) {
 				layer.on({
 					click: onClick
 				})
 			}
-			L.geoJSON(clickRegions,/*{
+			var linkLayer = L.geoJSON(clickRegions,{
 				onEachFeature: onEachFeature
-			}*/).addTo(map);
+			});
+			linkLayer.addTo(map);
 		</script>
 	</body>
 </html>
