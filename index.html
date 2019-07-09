@@ -29,24 +29,29 @@
 			});
 			var mapTiles = L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-0000/info.json');
 			mapTiles.addTo(map);
-			/*function onMapClick(e) {
-				alert(e.latlng.lng+","+e.latlng.lat);
-			}
-			map.on('click', onMapClick);*/
+
 			function onClick(e) {
 				var mapTiles = L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-'+e.target.feature.properties.page+'/info.json');
 				mapTiles.addTo(map);
 				linkLayer.remove();
 			}
+			
 			function onEachFeature(feature,layer) {
 				layer.on({
 					click: onClick
 				})
 			}
+			
 			var linkLayer = L.geoJSON(clickRegions,{
 				onEachFeature: onEachFeature
 			});
 			linkLayer.addTo(map);
+
+			// Activate the function below when grabbing coordinates to build your regions
+			/*function onMapClick(e) {
+				alert(e.latlng.lng+","+e.latlng.lat);
+			}
+			map.on('click', onMapClick);*/
 		</script>
 	</body>
 </html>
