@@ -1,4 +1,4 @@
-var clickRegions =
+var p0000Regions =
 	{
 		"type": "FeatureCollection",
 		"features": [
@@ -1683,6 +1683,103 @@ var clickRegions =
 					[40,-469.2],
 					[40.7,-452.9],
 					[58.6,-448.8]
+				]]
+			}}
+		]
+	};
+
+var p0001Regions = 
+	{
+		"type": "FeatureCollection",
+		"features": [
+			{"type": "Feature",
+			"properties": {
+				"id": "v2p0",
+				"volume": 2,
+				"page": "0000"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [[
+					[294.3,-113.5],
+					[287,-126],
+					[190,-66],
+					[196,-57.8]
+				]]
+			}},
+			{"type": "Feature",
+			"properties": {
+				"id": "v1p0",
+				"volume": 1,
+				"page": "0000"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [[
+					[43,-18.6],
+					[43,-39.3],
+					[17.3,-39.3],
+					[17.3,-18.6]
+				]]
+			}},
+			{"type": "Feature",
+			"properties": {
+				"id": "v1p12",
+				"volume": 1,
+				"page": "0012"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [[
+					[71.8,-88.8],
+					[71.8,-106.1],
+					[56.5,-106.1],
+					[56.5,-88.8]
+				]]
+			}},
+			{"type": "Feature",
+			"properties": {
+				"id": "v1p7",
+				"volume": 1,
+				"page": "0007"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [[
+					[68.5,-274.5],
+					[68.5,-290.4],
+					[57.9,-290.4],
+					[57.9,-274.5]
+				]]
+			}},
+			{"type": "Feature",
+			"properties": {
+				"id": "v1p3",
+				"volume": 1,
+				"page": "0003"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [[
+					[198.9,-446],
+					[198.9,-463.2],
+					[186.4,-463.2],
+					[186.4,-446]
+				]]
+			}},
+			{"type": "Feature",
+			"properties": {
+				"id": "v1p2",
+				"volume": 1,
+				"page": "0002"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [[
+					[349.9,-274.9],
+					[349.9,-291.6],
+					[339.1,-291.6],
+					[339.1,-274.9]
 				]]
 			}}
 		]
