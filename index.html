@@ -27,28 +27,40 @@
 				crs: L.CRS.Simple,
 				zoom: 0
 			});
-			var mapTiles = L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-0000/info.json');
-			mapTiles.addTo(map);
 
+			// Loads in map tiles for page 0000 (the index) on initial load
+			L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-0000/info.json').addTo(map);
+
+			// Controls loading in of map tiles and geoJSON for new pages when map is clicked
 			function onClick(e) {
-				var mapTiles = L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-'+e.target.feature.properties.page+'/info.json');
-				mapTiles.addTo(map);
-				linkLayer.remove();
+				// Removes previous map layers
+				map.eachLayer(function(layer){
+					map.removeLayer(layer);
+				});
+
+				// Loads in the tiles for the new page
+				L.tileLayer.iiif('http://tile.loc.gov/image-services/iiif/service:gmd:gmd411m:g4114m:g4114dm:g03985189701:03985_01_1897-'+e.target.feature.properties.page+'/info.json').addTo(map);
+
+				// Loads in clickable regions for the page
+				L.geoJSON(eval('p'+e.target.feature.properties.page+'Regions'),{
+					onEachFeature: onEachFeature
+				}).addTo(map);
 			}
 			
+			// Adds onClick function above as a click event to each feature in the geoJSON 
 			function onEachFeature(feature,layer) {
 				layer.on({
 					click: onClick
 				})
 			}
-			
-			var linkLayer = L.geoJSON(clickRegions,{
+
+			// Loads in regions for page 0000 (the index) on initial load
+			L.geoJSON(p0000Regions,{
 				onEachFeature: onEachFeature
-			});
-			linkLayer.addTo(map);
+			}).addTo(map);
 
 			// Activate the function below when grabbing coordinates to build your regions
-			/*function onMapClick(e) {
+			/* function onMapClick(e) {
 				alert(e.latlng.lng+","+e.latlng.lat);
 			}
 			map.on('click', onMapClick);*/
