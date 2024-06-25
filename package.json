@@ -4,14 +4,15 @@
   "description": "Using Leaflet and Leaflet-IIIF to create link overlays for the Library of Congress' Sanborn Maps",
   "author": {
       "name": "Clayton Hayes",
-      "email": "claytonllibrar@gmail.com"
+      "email": "hi.its.clayton@gmail.com"
     },
   "repository": {
     "type": "git",
-    "url": "git://github.com/claytonllibrar/sanborn-maps.git"
+    "url": "git://github.com/helloitsclayton/sanbornMaps.git"
   },
     "devDependencies": {
-    "Leaflet": "^1.5.1",
-    "Leaflet-IIIF": "^2.0.1"
+    "jQuery": "^3.7.1",
+    "Leaflet": "^1.9.4",
+    "Leaflet-IIIF": "^3.0.0"
     }
 }
